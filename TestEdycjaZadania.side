@@ -1,0 +1,108 @@
+{
+  "id": "b9728deb-ce9f-4db3-8248-8e2d6dcf97b4",
+  "version": "2.0",
+  "name": "test_project",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "7c3c031b-f7d6-4a65-a9a8-d2a9e95319ae",
+    "name": "edycja_zadan",
+    "commands": [{
+      "id": "eebaa986-149d-4ca0-91e1-74dde967e427",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c21c9fd-496f-4b3c-a611-9e893180c35b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1006x710",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "400634c6-402c-44c4-93ee-94c0b2c99ce8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aaabbbaaa"
+    }, {
+      "id": "7277c26e-e117-4e14-b309-98e7bf71dd0e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3cd50dda-8746-4a1a-93ec-f9f2b15ef1c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'aaabbbaaa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07c542cf-59d2-4b2d-8cb7-80e7caac559f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'aaabbbaaa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acbc462b-1283-4f7d-aca7-d5e4ec42fbb9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-binding:nth-child(2)",
+      "targets": [
+        ["css=.ng-binding:nth-child(2)", "css:finder"],
+        ["xpath=//div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'aaabbbaaa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a1be597-129a-44d7-a4df-7d7bbd239bbd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.edit",
+      "targets": [
+        ["css=.edit", "css:finder"],
+        ["xpath=//li/form/input", "xpath:position"]
+      ],
+      "value": "aaabbbccc"
+    }, {
+      "id": "c9e60247-0ae5-4b3f-8d97-fa1859f91b8d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.edit",
+      "targets": [
+        ["css=.edit", "css:finder"],
+        ["xpath=//li/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "002807d2-f6d9-48b4-8b77-8451d974a0d1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7c3c031b-f7d6-4a65-a9a8-d2a9e95319ae"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
