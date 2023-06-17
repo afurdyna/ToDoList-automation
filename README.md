@@ -1,3 +1,7 @@
+# Testy automatyczne dla projektu ToDoList
+
+Na potrzeby projektu napisano dwa testy: jeden użyciem języka Python i drugi z użyciem rozszerzenia Selenium IDE.
+
 ## Uruchomienie testów napisanych w języku Python
 
 ### Informacje
