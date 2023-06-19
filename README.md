@@ -15,7 +15,7 @@ Test został napisany w użyciem Pythona w wersji 3.11.3
 ## Uruchomienie testów napisanych z użyciem Selenium IDE
 
 ### Informacje
-Test został napisany z wykorzystaniem rozszerzenia Selenium IDE (wersja: 3.17.2) do przeglądarki Chrome
+Test został napisany z wykorzystaniem rozszerzenia Selenium IDE (wersja: 3.17.2) do przeglądarki Chrome. Do pobrania ze strony: https://www.selenium.dev/selenium-ide/
 
 ### Uruchomienie
 1. Najpierw należy pobrać ten projekt (za pomocą polecenia `git clone` lub poprzez ściągnięcie plików)
